@@ -1,0 +1,11 @@
+html {
+    background-color: #2f2b15;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+#jumboIntro {
+    background-color: #776d37;
+}
+div {
+    display: block;
+}
