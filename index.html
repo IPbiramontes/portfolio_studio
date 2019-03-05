@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<head>
-    <title> Isabela Biramontes' Portfolio </title>
+<html>
+    <head>
+        <title> Isabela Biramontes' Portfolio </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,46 +13,97 @@
     <!-- Link script.js here -->
     <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+        }
+        .header-image {
+            background-image: url("images/headerSkyline2.jpg");
+            background-color: #cccccc;
+            height: 100px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .header-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 2px 2px 4px #000000
+        }
+    </style>
+    </head>
+    <body>
     <!-- Nav Bar -->
     <!-- About Section -->
     <!-- Contact Section -->
-    <div id="jumboIntro" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <img src="...">
+        <div class="header-image">
+            <div class="header-text">
+                <h1 style="font-size:50px">Isabela Biramontes</h1>
+                <h3 style="font-size:25px">Aspiring Wearable Tech Developer </h3>
+                <a id="headerTag" href="https://github.com/IPbiramontes"><h4 style="font-size:15px"> Github</h4></a>
+            </div>
         </div>
-    </div>
-    <!-- Portfolio Grid Section -->
-    <ul class="list-unstyled">
-        <li class="media">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-                Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        <!-- Work grid -->
+        <div id="infoClick"> 
+            <p >?</p>
+        </div>
+        <div class="container">
+            <h3 class="containerHeadlines"> Developed in class </h3>
+            <div class="row">
+                <div class="col-lg-5">
+                        <img id="questionImage" class="colImages" src="images/Questionaire.gif">
+                    <a href="https://whatismyusername.github.io/studio1/">
+                        <p> A collaborative project, <i>Questionaire</i>, 2019 </p>    
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                        <img id="RPSImage" class="colImages" src="images/RPS.gif">
+                    <a href="https://preview.c9users.io/ipbiramontes/rps-project/index.html">
+                        <p> Rock, Paper, Scissors Game, 2018 </p>    
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                    <img id="playlistImage" class="colImages" src="images/Playlist.gif">
+                    <a href="https://preview.c9users.io/ipbiramontes/my_playlist/index.html">
+                        <p> Playlist, 2018</p>
+                    </a>
+                </div>
             </div>
-        </li>
-        <li class="media my-4">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            <h3 class="containerHeadlines"> What I've developed outside of class </h3>
+            <div class="row">
+                <div class="col-lg-5">
+                        <img id="circuitImage" class="colImages" src="images/Circuit.gif">
+                    <a href="https://github.com/IPbiramontes/senior_fashion_show/tree/master">
+                        <p> Github repository with code for an <i> Adafruit Circuit Playground Classic</i>, 2019 </p>    
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                    <img id="strangerImage" class="colImages" src="images/Stranger.gif">
+                    <a href="https://preview.c9users.io/ipbiramontes/the_stranger/intro.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io">
+                        <p> Interactive art website inspired by <i> The Stranger</i>, 2018</p>
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                        <img id="macbethImage" class="colImages" src="images/Macbeth.gif">
+                    <a href="https://preview.c9users.io/ipbiramontes/macbeth-project/firstpage.html">
+                        <p> Interactive art website inspired by <i> Macbeth</i>, 2017 </p>    
+                    </a>
+                </div>
             </div>
-        </li>
-        <li class="media">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-         </li>
-    </ul>
+        </div>
+        
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!--- Jquery--->
     <script src="jquery-3.3.1.min.js"></script>`
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    </body>
 </html>
     
